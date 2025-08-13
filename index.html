@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert("pagina carregada...")
+    </script>
+</head>
+<body>
+    <h1 id="titulo"> titulo </h1>
+    <button onclick="mudartitulo()">clique</button>
+    <script>
+
+        function mudartitulo(){
+            const titulo = document.getElementById('titulo');
+            titulo.innerText = "agora nao mais!";
+        }
+        
+    </script>
+
+<br>
+
+<script>
+
+let nome = prompt("insira seu nome");
+alert ("seja bem vindo(a)," + nome + "!" )
+
+ </script>
+ 
+
+<script>
+
+    function mudarcor(){
+        cor.style.backgroundColor = "blue"
+    }
+</script>
+<div>
+    <h2 id="cor">mude de cor apertando o botao abaixo</h2>
+    <button onclick="mudarcor()">mudar cor</button>
+</div>
+
+</html>
